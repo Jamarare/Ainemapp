@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'GoodDogRegular';
+    src: url('font/GoodDog-webfont.eot') format('eot');
+	src: local('?'), 
+         url('font/GoodDog-webfont.woff') format('woff'),
+         url('font/GoodDogRegular.ttf') format('truetype'),
+         url('font/GoodDog-webfont.svg#webfontx1QlgLst') format('svg');
+}
+
+body {
+    font-family: GoodDogRegular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:.75em;
+    color: #363636;
+}
+
+h1{
+	font-family:GoodDogRegular;
+	font-size:3.2em;
+    font-variant: small-caps;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    text-indent: initial;
+    margin-top: 0;
+    background-color:#000;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #ff00de,
+    0 0 70px #ff00de,
+    0 0 80px #ff00de,
+    0 0 100px #ff00de,
+    0 0 150px #ff00de;
+}
+
+
+h3{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#esimene {
+    color: yellow;
+}
+
+.roheline{
+    color: green;
+}
+
+p em{
+    color: red;
+}
+
+p > em{
+    color: red;
+}
+
+p + em{
+    color: red;
+}
+
+p ~ em{
+    color: red;
+}
+
+h1 ~ p{
+    color: blue;
+}
+
+*[class="punane"] {
+    background-color: pink;
+}

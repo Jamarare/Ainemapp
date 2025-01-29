@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tagasiside Admin</title>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+    <h1>Tagasiside Admin</h1>
+    <p><strong>Kokku hindajaid:</strong> <span id="total-reviewers">0</span></p>
+    <p><strong>Keskmine hinnang:</strong> <span id="average-rating">0</span></p>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Hinne</th>
+                <th>Kommentaar</th>
+                <th>Kustuta</th>
+            </tr>
+        </thead>
+        <tbody id="feedback-table">
+          
+        </tbody>
+    </table>
+
+    <script src="admin.js"></script>
+</body>
+</html>

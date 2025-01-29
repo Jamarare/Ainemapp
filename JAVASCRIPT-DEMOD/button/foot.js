@@ -1,0 +1,1 @@
+console.log("foot.js Tervitab sind!")

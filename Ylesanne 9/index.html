@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ylesanne9.js" defer></script> 
+</head>
+<body>
+    <h2>Minu nimi</h2>
+    <script>
+        Nimi();
+    </script>
+
+    <label for="nimi">Sisesta nimi:</label>
+    <input type="text" id="nimi" placeholder="Näiteks: Allan">
+    <button onclick="Nimi()">Kuva nimi</button>
+
+    <h2>Kuupäeva kuvamine eesti keeles</h2>
+
+    <label for="kuupaevInput">Sisesta kuupäev (dd.mm.yy):</label>
+    <input type="text" id="kuupaevInput" placeholder="Näiteks: 19.07.23">
+    <button onclick="kuupäevEesti()">Kuva kuupäev</button>
+
+    <h2>Summa ja Keskmise Arvutamine</h2>
+    
+    <label for="numbridInput">Sisesta täisarvud, eraldatuna komadega:</label>
+    <input type="text" id="numbridInput" placeholder="Näiteks: 4, 7, 12, 5, 9">
+    <button onclick="arvutaJaKuva()">Arvuta</button>
+
+    <h2>Salajase Sõnumi Loomine</h2>
+    
+    <label for="sonumInput">Sisesta sõnum:</label>
+    <input type="text" id="sonumInput" placeholder="Näiteks: Tere tulemast">
+    <button onclick="kuvaSalajaneSõnum()">Loo salajane sõnum</button>
+
+    <h2>Leia Unikaalsed Nimed</h2>
+    
+    <label for="nimedInput">Sisesta nimed, eraldatuna komadega:</label>
+    <input type="text" id="nimedInput" placeholder="Näiteks: Kati, Mati, Kati, Mari, Mati, Jüri">
+    <button onclick="kuvaUnikaalsedNimed()">Kuva unikaalsed nimed</button>
+    
+    <p id="tulemus"></p>
+
+    <script src="ylesanne9.js"><script>
+</body>
+</html>

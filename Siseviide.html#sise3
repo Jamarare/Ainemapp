@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lingid</title>
+    <meta name="description" content="Õpime veebitehnoloogiat" />
+    <meta name="keywords" content="HTML,HTML5" />
+    <meta name="author" content="Mario Metshein" />
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="algusesse">metshein.com</h1>
+            <p>Õpime veebitehnoloogiat</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#sise1">Lorem Ipsum</a></li>
+                <li><a href="#sise2">Nam lobortis</a></li>
+                <li><a href="#sise3">Mauris faucibus</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2 id="sise1">Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare ullamcorper odio at consequat. Sed erat ipsum, ullamcorper sit amet aliquam eu, dictum pretium est. Morbi sollicitudin sem quis enim lobortis sollicitudin ac ut eros. Nam blandit, augue et imperdiet congue, mi massa tincidunt dui, id tempus ligula dolor eget nunc. Cras faucibus tempus elementum. Curabitur dui dui, bibendum ut eleifend vel, pharetra in odio. Praesent eu nibh quam, et molestie urna. Duis vitae orci erat, ut blandit massa. Aliquam erat volutpat. Vestibulum viverra orci hendrerit mauris fringilla dignissim. Aenean at malesuada tellus. Sed cursus imperdiet egestas. Donec facilisis est tincidunt nulla euismod consectetur. Sed consequat nibh vitae dolor ultricies pellentesque. Sed mollis magna sed nisi egestas placerat. Nulla facilisi. Curabitur consectetur adipiscing nunc, vitae adipiscing tellus fringilla vitae.
+            </p>
+            <h2 id="sise2">Nam lobortis</h2>
+            <p>Nam lobortis massa at magna luctus lobortis. Sed molestie enim eu enim bibendum eget convallis ante feugiat. Donec ultrices luctus blandit. Maecenas velit ante, bibendum eu convallis non, varius vehicula leo. In arcu orci, imperdiet ut rhoncus et, adipiscing non velit. Morbi nec lorem eros. Quisque mollis volutpat risus, in semper arcu tempus a. Suspendisse potenti. Quisque a massa quam. Sed convallis, sem nec elementum pellentesque, lorem nunc ornare eros, sed eleifend nisi diam vitae nulla. Cras feugiat bibendum justo at elementum. Nullam tincidunt dui et sem gravida vitae cursus tortor venenatis. Quisque vel justo augue, posuere auctor tellus.</p>
+            <h2 id="sise3">Mauris faucibus</h2>
+            <p>Mauris faucibus tincidunt eros, nec fermentum est tristique in. Vestibulum vel enim at dui pharetra mattis quis sit amet velit. Donec enim felis, auctor a bibendum at, aliquet eget tortor. Fusce interdum porttitor iaculis. Praesent lobortis aliquam augue, at feugiat leo pulvinar in. Cras viverra commodo orci ut bibendum. Vestibulum et mauris libero. Praesent aliquet libero in urna mollis id hendrerit felis congue. Nunc vehicula tempor eros. Suspendisse quis diam enim, sed mattis est. Ut eu turpis odio. Nulla mattis ornare interdum.</p>
+            <a href="#algusesse">Üles</a>
+        </section>
+        <footer>
+            <p>metshein.com | Männi pst 12, Haapsalu | +372 856 655</p>
+        </footer>
+    </main>
+</body>
+</html>

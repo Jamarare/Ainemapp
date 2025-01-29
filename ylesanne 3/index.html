@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arvutamine</title>
+    <script src="Ylesanne3.js" defer></script>
+</head>
+<body>
+    <h1>Arvutamine</h1>
+    <h2>Sõidu aeg ja kiirus</h2>
+
+    <form class="input-form">
+        <label for="distance">Kaugus (km):</label>
+        <input type="number" id="distance" placeholder="Sisesta kaugus km"><br><br>
+        <label for="speed">Kiirus (km/h):</label>
+        <input type="number" id="speed" placeholder="Sisesta kiirus km/h"><br><br>
+        <button type="button" onclick="arvutaAeg()">Arvuta sõidu aeg</button>
+    </form>
+
+    <form class="input-form">
+        <label for="totalPosts">Postituste arv:</label>
+        <input type="number" id="totalPosts" placeholder="Sisesta postituste koguarv"><br><br>
+        <label for="postsPerPage">Postitusi lehel:</label>
+        <input type="number" id="postsPerPage" placeholder="Sisesta postituste arv lehel"><br><br>
+        <button type="button" onclick="arvutaLehekülgi()">Arvuta</button>
+    </form>
+
+    <form class="input-form">
+        <label for="võimsus">Serveri võimsus (W):</label>
+        <input type="number" id="võimsus" placeholder="Sisesta serveri võimsus W"><br><br>
+        <label for="elektriHind">Elektri hind (€ / kWh):</label>
+        <input type="number" step="0.0001" id="elektriHind" placeholder="Sisesta elektri hind"><br><br>
+        <button type="button" onclick="arvutaTöökulu()">Arvuta</button>
+    </form>
+
+    <p id="output"></p>
+</body>
+</html>

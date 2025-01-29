@@ -1,0 +1,57 @@
+.spec-atribute{
+    background-color: yellow;
+    border: solid 2px red;
+}
+.spec-value{
+    color: rgb(124, 222, 255);
+}
+p > span:first-of-type{
+    font-weight: bold;
+    color: red;
+}
+
+p > span:nth-of-type(3){
+   text-decoration: underline;
+}
+p{
+    width: 640px;
+}
+p:first-of-type{
+    font-family: "Times New Roman";
+    font-size: 12px;
+    background-color: greenyellow;
+    border-left: 5px solid darkgreen;
+    border-bottom: 5px solid darkgreen;
+    padding: 10px;
+}
+p:nth-of-type(2){
+    font-family:     "Comic Sans MS";
+    font-size: 10px;
+    background-color: rgb(128, 174, 189);
+    border: 2px solid darkblue;
+    padding: 10px;
+}
+p:nth-of-type(3){
+    font-family:     "Courier New";
+    font-size: 12px;
+    background-color: lightpink;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    padding: 10px;
+}
+p:nth-of-type(4){
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    border: 2px dashed red;
+    padding: 10px;
+}
+p:nth-of-type(5){
+    font-family: "Calibri";
+    font-size: 14px;
+    border-right: 5px dashed purple;
+    border-bottom: 5px dashed purple;
+    padding: 10px;
+}
+.spec-text{
+    color : red;
+}
