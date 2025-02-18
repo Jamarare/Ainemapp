@@ -10,10 +10,13 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-image: url('EF2000Typhoon.png');/
+    background-image: url('EF2000Typhoon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
 }
 
 /* Header */
