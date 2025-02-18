@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-image: url('EF2000Typhoon.png');
+    background-image: url('EF2000Typhoon.png');/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,15 +31,19 @@ header h1 {
 
 /* Navigation */
 nav {
-    text-align: center;
-    margin-top: 10px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 nav a {
+    display: block;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 15px;
+    margin: 10px 0;
     padding: 10px;
     border: 2px solid #b30000;
     background: #b30000;
@@ -83,12 +87,21 @@ table {
     background-color: #b30000;
     border-collapse: collapse;
     width: 80%;
+    text-align: left;
 }
 
 tr, td {
     border: 1px solid #fff;
     padding: 10px;
     color: #fff;
+}
+
+/* Image inside Table */
+td img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 /* Buttons */
