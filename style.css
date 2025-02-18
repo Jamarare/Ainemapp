@@ -5,7 +5,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
+    background-image: url('EF2000Typhoon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Header */
@@ -53,7 +61,6 @@ nav a:hover {
     text-align: center;
 }
 
-h2 {
 h2, h3, h4 {
     color: #b30000;
     text-shadow: 2px 2px 5px #fff;
@@ -65,17 +72,25 @@ p {
 }
 
 /* Table Centering */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 table {
-    margin: 20px auto;
     background-color: #b30000;
     border-collapse: collapse;
     width: 80%;
 }
+
 tr, td {
     border: 1px solid #fff;
     padding: 10px;
     color: #fff;
 }
+
 /* Buttons */
 .button {
     background-color: #b30000;
