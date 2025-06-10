@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andmebaasiga programm</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        li strong {
+            color: #2980b9;
+        }
+        a.button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 24px;
+            margin: 10px 5px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+        a.button:hover {
+            background: #2980b9;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+            a.button {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Programmi kirjeldus</h2>
+        <p>Programmis on kaks peamist andmeüksust:</p>
+        <ul>
+            <li><strong>Tooted</strong> – sisaldab infot toodete kohta nagu nimi ja ProductID.</li>
+            <li><strong>Kategooriad</strong> – võimaldab tooteid grupeerida erinevate kategooriate alla.</li>
+        </ul>
+
+        <h2>Lingid</h2>
+        <ul>
+            <li><a href="Andmed.png" class="button" target="_blank">Pilt andmetest</a></li>
+            <li><a href="https://github.com/Jamarare/TootedJaKategooriad" class="button" target="_blank">GitHubi repo</a></li>
+            <li><a href="ERD.png" class="button" target="_blank">ERD</a></li>
+        </ul>
+    </div>
+</body>
+</html>
