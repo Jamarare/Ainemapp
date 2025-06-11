@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lowercase Vahendid</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        header { background-color: #4CAF50; color: white; padding: 10px; text-align: center; }
-        .section { margin: 20px; }
-        a { color: #4CAF50; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lowercase CASE-vahendid</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <header>
+        <h1>Lowercase CASE-vahendid</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Avaleht</a></li>
+                <li><a href="uppercase.html">Uppercase vahendid</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Lowercase Vahendid</h1>
-</header>
+    <main>
+        <section>
+            <h2>Mis on Lowercase vahendid?</h2>
+            <p>Lowercase CASE-vahendid toetavad tarkvaraarenduse hilisemaid etappe, nagu koodigeneratsioon, testimine ja hooldus.</p>
+        </section>
 
-<section class="section">
-    <h3>Mis on Lowercase vahendid?</h3>
-    <p>Lowercase vahendid keskenduvad koodigeneratsioonile, testimisele ja süsteemi hooldamisele. Need tööriistad aitavad arendajatelt hallata koodi ja tagada tarkvara kvaliteedi.</p>
+        <section>
+            <h2>Mille jaoks neid kasutatakse?</h2>
+            <ul>
+                <li>Koodi kirjutamine ja genereerimine</li>
+                <li>Testide automatiseerimine</li>
+                <li>Veaparandus ja hooldus</li>
+            </ul>
+        </section>
 
-    <h3>Mille jaoks neid kasutatakse?</h3>
-    <ul>
-        <li><b>Koodigeneratsioon:</b> automaatne koodigeneratsioon ja integreerimine.</li>
-        <li><b>Testimine:</b> tarkvara testimine, sealhulgas üksuse ja integreerimistestid.</li>
-        <li><b>Hooldus:</b> süsteemi jälgimine ja vigade tuvastamine.</li>
-    </ul>
+        <section>
+            <h2>Milliseid lowercase vahendeid olen kasutanud?</h2>
+            <p>Github, Visual Studio.</p>
+        </section>
 
-    <h3>Milliseid vahendeid olen ise juba kasutanud?</h3>
-    <ul>
-        <li>Visual Studio Code, GitHub</li>
-    </ul>
+        <section>
+            <h2>Kaks näidet lowercase vahenditest, mida pole veel kasutatud</h2>
 
-    <h3>2 Näidet Lowercase tööriistadest:</h3>
-    
-    <div class="tool">
-        <h4>Jenkins</h4>
-        <p><b>Kasutusvõimalused:</b> Pideva integreerimise ja kohaletoimetamise tööriist, mis automatiseerib koodide testimist ja juurutamist.</p>
-        <p><a href="https://www.jenkins.io/"><b>Loe rohkem</b></a></p>
-    </div>
+            <article class="tool-example">
+                <h3>Jenkins</h3>
+                <img src="jenkins_logo.png" alt="Jenkins logo" />
+                <img src="jenkins_screenshot.png" alt="Jenkins programmi aken" />
+                <p>Jenkins on avatud lähtekoodiga automatiseerimise server, mida kasutatakse tarkvaraarenduse pidevaks integreerimiseks ja testimiseks.</p>
+            </article>
 
-    <div class="tool">
-        <h4>Selenium</h4>
-        <p><b>Kasutusvõimalused:</b> Avatud lähtekoodiga raamistik veebirakenduste testimiseks.</p>
-        <p><a href="https://www.selenium.dev/"><b>Loe rohkem</b></a></p>
-    </div>
+            <article class="tool-example">
+                <h3>SonarQube</h3>
+                <img src="sonarqube_logo.png" alt="SonarQube logo" />
+                <img src="sonarqube_screenshot.png" alt="SonarQube programmi aken" />
+                <p>SonarQube on kvaliteedi analüüsi tööriist, mis aitab tuvastada koodi kvaliteediprobleeme ja võimalikke vigu.</p>
+            </article>
+        </section>
+    </main>
 
-</section>
-
+    <footer>
+        <p>Viited: <a href="https://www.jenkins.io/" target="_blank">Jenkins</a>, <a href="https://www.sonarqube.org/" target="_blank">SonarQube</a></p>
+    </footer>
 </body>
 </html>
